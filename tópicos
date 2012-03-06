@@ -1,0 +1,27 @@
+tópicos
+
+- versionamento (rvm)
+	poderia simplesmente acessar o site baixar o cp código fonte e compilalo
+
+	1.9.2
+	1.9.3
+
+	Instalar, manusear e trabalhar (install, change and upgrade)
+	Gemsets
+
+-install packages (require later)
+	sudo apt-get update
+	sudo apt-get install build-essential git-core curl libmysqlclient16-dev nodejs
+
+Lastest RVM
+	bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+	echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
+	. ~/.bashrc
+
+- install packages 
+	sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion
+
+rvm install 1.9.3
+rvm --default use 1.9.3
+ruby -v
+gem install rails
