@@ -21,29 +21,235 @@
 
 		    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
 		        <q>
-		        	Eduardo Schneiders
+		        	<div class="name">Eduardo Schneiders</div>
+		        	<div style="clear: both; margin-top: 280px;"></div>
+		        	<div style="font-size: 30px; float: right; line-height: 40px" class="twitter">@eduschneiders</div><br />
+		        	<div style="font-size: 30px; float: right; line-height: 40px" class="email">eduardo.m.schneiders@gmail.com</div>
 		        </q>
 		    </div>
 
-		    <div class="step slide" data-x="0" data-y="-1500">
+		    <div id="teste" class="step slide" data-x="0" data-y="-1500">
 		        <q>
-		        	Versionamento
-		        	<ul>
-		        		<li>1.9.2</li>
-		        		<li>1.9.3</li>
-		        	</ul>
+		        	Instalação do ambiente Ruby
 		        </q>
 		    </div>
+
+		    
 
 		    <div class="step slide" data-x="1000" data-y="-1500">
 		        <q>
-		        	<ul>
-		        		<li>Install</li>
-		        		<li>change</li>
-		        		<li>upgrade</li>
+		        	<div class="mainTitle">Versões</div>
+		        	<ul style="font-size: 20px; line-height: 35px;">
+		        		<li>1.8.6[-p420]</li>
+						<li>1.8.7[-p358]</li>
+						<li>1.8.7-head</li>
+						<li>1.9.1[-p431]</li>
+						<li>1.9.2-p180</li>
+						<li>1.9.2-p290</li>
+						<li>1.9.2[-p318]</li>
+						<li>1.9.2-head</li>
+						<li>1.9.3-preview1</li>
+						<li>1.9.3-rc1</li>
+						<li>1.9.3-p0</li>
+						<li>1.9.3[-p125]</li>
+						<li>1.9.3-head</li>
 		        	</ul>
 		        </q>
 		    </div>
+
+		    <div class="step slide" data-x="2000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">RVM</div>
+		        	<p><b>Install</b>, <b>Manage</b>, and <b>Work</b></p>
+		        	(Ruby, Gems and IRB)
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="3000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Atualização</div>
+		        		<ul>
+		        			<li class="code">sudo apt-get <b>update</b></li>
+							<li class="code">sudo apt-get install build-essential <b>git-core curl</b></li>
+						</ul>		        	
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="4000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Lastest RVM</div>
+		        		<ul>
+		        			<li class="code">bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)</li>
+		        			<li class="code">echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc</li>
+		        			<li class="code">. ~/.bashrc</li>
+						</ul>		        	
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="5000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Essential Packages</div>
+	        		<ul>
+	        			<li class="code">sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion</li>
+					</ul>		        	
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="6000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Ruby instalation</div>
+	        		<ul>
+	        			<li class="code">rvm install 1.9.3</li>
+						<li class="code">ruby -v</li>
+						<li class="code">rvm --default use 1.9.3</li>
+					</ul>		        	
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="7000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Practicing</div>
+	        		<ul>
+	        			create two new projects
+					</ul>		        	
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="8000" data-y="-1500">
+		        <q>
+		        	<div class="title">oldVersion</div>
+		        		<ul class="code">
+		        			<li>file .rvmrc</li>
+		        			<li>rvm use 1.8.7@oldVersion</li>
+		        			<li>rvm gemset create oldVersion</li>
+		        		</ul>
+		        	<div class="title">newVersion</div>
+		        		<ul class="code">
+		        			<li>file .rvmrc</li>
+		        			<li>rvm use 1.9.3@newVersion</li>
+		        			<li>rvm gemset create newVersion</li>
+		        		</ul>
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="9000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Gem Installation</div>
+		        	<div class="code">gem install haml</div>
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="10000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle" style="margin-top: 240px; ">Isolated Projects</div>
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="11000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Practicing Ruby</div>
+		        	<div class="code">IRB</div>
+		        	<ul style="font-size: 20px; line-height: 35px">
+		        		<li>
+		        			Object
+		        			<ul class="teste">
+		        				<li>Numeric
+		        					<ul>
+		        						<li>Integer
+		        							<ul>
+												<li>Fixnum</li>
+		        								<li>Bignum</li>
+		        							</ul>
+		        						</li>
+		        					</ul>
+		        					<ul>
+		        						<li>float</li>
+		        					</ul>
+		        				</li>
+		        				<li>String</li>
+		        				<li>Array</li>
+		        				<li>Hash</li>
+		        				<li>Regexp</li>
+		        			</ul>
+		        		</li>
+		        	</ul>
+		        </q>
+		    </div>
+
+ 			<div class="step slide" data-x="12000" data-y="-1500">
+		        <q>
+		        	<ul>
+		        		<li class="code">1</li>
+		        		<li class="code">1,5</li>
+		        		<li class="code">"This is String".class</li>
+		        		<li class="code">:name</li>
+		        		<li class="code">[1, "foo", [1, 2]]</li>
+		        		<li class="code">{<b>RS</b>: &nbsp;&nbsp;10_914_128,&nbsp;&nbsp;&nbsp; <b>SC</b>: &nbsp;&nbsp;6_248_436,&nbsp;&nbsp; &nbsp;<b>PR</b>:&nbsp;&nbsp; 10_439_601}</li>
+		        	</ul>		
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="13000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Concatenating Strings </div>
+		        	<div class="code">
+		        		valor = "correto"
+		        	</div>
+		        	<div class="code">
+		        		puts "O valor esta" + valor
+		        	</div>
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="14000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Concatenating Strings </div>
+		        	<div class="code">
+		        		puts "O valor esta #{valor}" 
+		        	</div>
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="15000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Changing Classes</div>
+		        	<div class="code">
+		        		var = "vazio"<br />
+						var.empty? 	# => false
+					</div>
+					
+					<div class="code">
+									class String<br />
+						&nbsp;&nbsp;	def empty?<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		self == "vazio" || self == ""<br />
+						&nbsp;&nbsp;			end<br />
+									end
+					</div>
+						
+		        </q>
+		    </div>
+
+		    <div class="step slide" data-x="16000" data-y="-1500">
+		        <q>
+		        	<div class="mainTitle">Changing Classes</div>
+	
+					<div class="code">
+						"valor".twoTimes
+					</div>
+					<div class="code">
+						class String<br />
+						&nbsp;&nbsp;	def twoTimes<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	self + self<br />
+						&nbsp;&nbsp;	end<br />
+						end
+					</div>
+					<div class="code">
+						1.twoTimes 
+					</div>
+						
+		        </q>
+		    </div>
+
 		</div>
 
     	<script src="js/impress.js"></script>

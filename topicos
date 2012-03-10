@@ -1,13 +1,37 @@
-- versionamento (rvm)
+Indice
+	versões
+	rvm
+		instalação
+	ruby instalação
 
-	1.9.2
-	1.9.3
+	2 projects
+
+	linguagem 
+		types
+		utilização
+		modificado a class
+
+
+
+- versionamento (rvm)
+	1.8.6[-p420]
+	1.8.7[-p358]
+	1.8.7-head
+	1.9.1[-p431]
+	1.9.2-p180
+	1.9.2-p290
+	1.9.2[-p318]
+	1.9.2-head
+	1.9.3-preview1
+	1.9.3-rc1
+	1.9.3-p0
+	1.9.3[-p125]
+	1.9.3-head
 
 -para gerenciar temos o RVM
 
-	Instalar, manusear e trabalhar (install, change and upgrade)
-
-
+ 	install, manage, and work
+ 	
 	(Ruby, Gems and IRB)
 
 Instalação
@@ -45,6 +69,7 @@ Ruby instalation
 gem install haml
 gem list
 rvm list
+rvm gemset list
 
 
 Isolated projects
@@ -80,12 +105,14 @@ IRB
 	[1, "asfsd", [1, 2]]
 	{"RS" => 10_914_128, "SC" => 6_248_436, "PR" => 10_439_601}
 
+		explain the diference bettwen hash -> array
+			array nao tem key
+			hash custom key
+
 	Contactening strings 
 	puts "isso eh um teste de #{teste}"
 
-	explain the diference bettwen hash -> array
-		array nao tem key
-		hash custom key
+	
 
 
 
@@ -107,5 +134,3 @@ IRB
 
 	"eduardo".twoTimes
 	1.twoTimes
-
-	s
